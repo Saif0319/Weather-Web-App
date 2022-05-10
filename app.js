@@ -5,6 +5,9 @@ const time = document.querySelector("img.time");
 const icon = document.querySelector(".icon img");
 const forecast = new Forecast();
 
+
+
+// DOM
 const updateUI = (data) => {
     const cityDets = data.cityDet;
     const weather = data.weather;
@@ -42,6 +45,24 @@ const updateUI = (data) => {
         card.classList.remove("d-none")
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

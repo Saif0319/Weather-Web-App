@@ -2,6 +2,10 @@ body {
     background-color: #eeedec;
     font-size: 0.8em;
     letter-spacing: 0.2em;
+    background-image: url(img/Weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .container {
@@ -16,8 +20,22 @@ body {
     margin-bottom: -50px;
 }
 
+.input {
+    padding: 5px 10px;
+    width: 280px;
+    margin: 0px 47px;
+}
+
+.mycont {
+    margin: -15px 45px;
+} 
+
 input[type="text"]:focus {   
-  border-color: rgba(217, 255, 0, 0.6);
-  box-shadow: 0 0 15px rgba(217, 255, 0, 0.6);
+  border-color: rgba(0, 255, 34, 0.6);
+  box-shadow: 0 0 15px rgba(0, 255, 34, 0.6);
   outline: 0 none;
+}
+
+h1 {
+    color: rgb(3, 14, 165);
 }
