@@ -39,3 +39,11 @@ input[type="text"]:focus {
 h1 {
     color: rgb(3, 14, 165);
 }
+
+.F {
+    margin: 1px 5px 15px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    font-size: larger;
+}
