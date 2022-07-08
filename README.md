@@ -1,1 +1,1 @@
-Just a simple weather app :)
+Weather app (HTML/CSS - Bootstrap - JavaScript)
